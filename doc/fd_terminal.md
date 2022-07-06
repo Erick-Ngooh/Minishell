@@ -26,7 +26,7 @@ char *ttyname(int fildes);
 
 ## [ttyslot](https://docstore.mik.ua/manuals/hp-ux/en/B2355-60130/ttyslot.3C.html)
 
-- renvoie l'index de l'entrée de l'utilisateur actuel dans le fichier /etc/utmpx . Ceci est accompli en scannant /etc/utmpx pour le nom du terminal associé à l'entrée standard, la sortie standard ou l'erreur standard (descripteur de fichier 0, 1 ou 2). https://docstore.mik.ua/manuals/hp-ux/en/B2355-60130/ttyslot.3C.html
+- renvoie l'index de l'entrée de l'utilisateur actuel dans le fichier /etc/utmpx . Ceci est accompli en scannant /etc/utmpx pour avoir le nom du terminal associé à l'entrée standard, la sortie standard ou l'erreur standard (descripteur de fichier 0, 1 ou 2).
 
 ### Prototype
 
